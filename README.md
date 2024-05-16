@@ -2,7 +2,7 @@
 
 A simple WhatsApp User bot.
 <p align="center">
-<img src="https://telegra.ph/file/1424bf83a211867ba1157.jpg" width="300" height="300"/>
+<img src="https://telegra.ph/file/efa95dac659f93718b73f.jpg" width="300" height="300"/>
 </p>
 <p align="center">
   <a href="https://rb.gy/izabex"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=Kilimanjaro+md+WHATSAPP+BOT+🗻🗻" alt="">
