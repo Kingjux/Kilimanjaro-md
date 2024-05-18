@@ -23,7 +23,7 @@ A simple WhatsApp User bot.
 ## Setup
 
 1. Deploy on Heroku
-   - Click [SCAN](https://venocyber-md-qr.onrender.com) and scan the QR code through the "WhatsApp Linked Devices" option in your WhatsApp app.
+   - Click [SCAN 𝐐𝐑𝟏](https://kili-qr.onrender.com) 𝐨𝐫 [𝐒𝐂𝐀𝐍 𝐐𝐑𝟐](https://kilimanjaro-qr-99684a96d64f.herokuapp.com/)and scan the QR code through the "WhatsApp Linked Devices" option in your WhatsApp app.
    - or use [𝐏𝐀𝐈𝐑 𝐂𝐎𝐃𝐄](https://venocyber-md-session-oz6r.onrender.com/pair) instead
    - You will get a session ID in WhatsApp, copy the ID only.
    - If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).
