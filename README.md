@@ -24,7 +24,7 @@ A simple WhatsApp User bot.
 
 1. Deploy on Heroku
    - Click [SCAN 𝐐𝐑𝟏](https://kili-qr.onrender.com) 𝐨𝐫 [𝐒𝐂𝐀𝐍 𝐐𝐑𝟐](https://kilimanjaro-qr-99684a96d64f.herokuapp.com/)and scan the QR code through the "WhatsApp Linked Devices" option in your WhatsApp app.
-   - or use [𝐏𝐀𝐈𝐑 𝐂𝐎𝐃𝐄](https://venocyber-md-session-oz6r.onrender.com/pair) instead
+   - or use [𝐏𝐀𝐈𝐑 𝐂𝐎𝐃𝐄 𝐒𝐄𝐑𝐕𝐄𝐑 𝟏](https://kilimanjaro.onrender.com/pair) 𝐎𝐑 [𝐏𝐀𝐈𝐑 𝐂𝐎𝐃𝐄 𝐒𝐄𝐑𝐕𝐄𝐑 𝟐](https://kilimanjaropairer-32ef0ce51a8d.herokuapp.com/pair) instead
    - You will get a session ID in WhatsApp, copy the ID only.
    - If you don't have an account on [Heroku](https://signup.heroku.com/), [create an account now](https://signup.heroku.com/).
    - If you don't have a GitHub account, [sign up](https://github.com/join) now.
