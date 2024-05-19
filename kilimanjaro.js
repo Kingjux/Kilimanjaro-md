@@ -113,9 +113,9 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
     const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
 const appname = process.env.APP_NAME;
 const herokuapi = process.env.HEROKU_API;
-    const packname = process.env.STICKER_PACKNAME || 'dreaded';
+    const packname = process.env.STICKER_PACKNAME || 'kilimanjaro';
 const dev = process.env.DEV || '255625774543'
- const DevDreaded = dev.split(",");
+ const DevKilinanjaro = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
    const bad = process.env.BAD_WORD || 'fuck';
 const botname = process.env.BOTNAME || "KILIMANJARO-MD";
@@ -377,7 +377,7 @@ function _0x3a27() {
     return _0x3a27();
 }
 
-const dreadedOwner = m.sender == ownerJid ? true : false;
+const kilimanjaroOwner = m.sender == ownerJid ? true : false;
 
 
 function _0x1718() {
@@ -534,7 +534,7 @@ if (m.isGroup && cmd && Blocked.includes(sender)) {
 }
 
  const timestamp = speed(); 
-   const dreadedspeed = speed() - timestamp 
+   const kilimanjarospeed = speed() - timestamp 
 
 
 if (budy.startsWith(',')) {
@@ -588,7 +588,7 @@ if (stdout) return reply(stdout)
     if (mek.key.id.startsWith("BAE5") && m.isGroup && !isAdmin && isBotAdmin && mek.key.id.length === 16 && antibot === 'TRUE') {  
 
  const kidts = m.sender;  
-  await client.sendMessage(m.chat, { text: `Dreaded AntiBot:\n@${kidts.split("@")[0]} is bot and has been removed to prevent spam!\nTo deactivate antibot set ANTIBOT variable to FALSE`, contextInfo:{mentionedJid:[kidts]}}, {quoted:m});  
+  await client.sendMessage(m.chat, { text: `Kilimanjaro AntiBot:\n@${kidts.split("@")[0]} is bot and has been removed to prevent spam!\nTo deactivate antibot set ANTIBOT variable to FALSE`, contextInfo:{mentionedJid:[kidts]}}, {quoted:m});  
   await client.groupParticipantsUpdate(m.chat, [kidts], 'remove');  
 
   } 
