@@ -1,4 +1,4 @@
-/* Fortunatus Mokaya */
+/* Venocyber Tech*/
 
 
 
@@ -18,7 +18,7 @@ import dreaded from "./kilimanjaro.js";
 import pk from "@whiskeysockets/baileys";
 import { exec } from "child_process";
 import GroupEvents from "./events.js";
-const { default: dreadedConnect,
+const { default: kilimanjaroConnect,
   useMultiFileAuthState,
   DisconnectReason,
   fetchLatestBaileysVersion,
@@ -749,7 +749,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         `${botname} is active 24/7\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         `${botname} is active 24/7\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Dar es salaam' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Dar es salaam'})}.` 
 
                                  ) 
 
@@ -994,11 +994,11 @@ client.ev.on("connection.update", async (con) => {
         }
         else if (disconnectReason === pk.DisconnectReason.connectionClosed) {
             console.log('Connection closed, reconnecting...');
-            startDreaded();
+            startKilimanjaro();
         }
         else if (disconnectReason === pk.DisconnectReason.connectionLost) {
             console.log('Connection to the server lost, trying to connect...');
-            startDreaded();
+            startKilimanjaro();
         }
         else if (disconnectReason === pk.DisconnectReason?.connectionReplaced) {
             console.log('Connection replaced, another session is already open, close it...');
@@ -1008,7 +1008,7 @@ client.ev.on("connection.update", async (con) => {
         }
         else if (disconnectReason === pk.DisconnectReason.restartRequired) {
             console.log('Restarting...');
-            startDreaded();
+            starKilimanjaro();
         }
         else {
             console.log('Restarting due to error ', disconnectReason);
@@ -1016,7 +1016,7 @@ client.ev.on("connection.update", async (con) => {
             exec("pm2 restart all");
         }
         console.log("Bot is" + connection);
-      startDreaded();
+      startKilimanjaro();
     }
 });
   client.ev.on("creds.update", saveCreds);
