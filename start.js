@@ -29,9 +29,9 @@ const { default: kilimanjaroConnect,
   getContentType,
 } = pk;
 import logger_1 from "@whiskeysockets/baileys/lib/Utils/logger.js";
-import { imageToWebp } from "./lib/kilimanjaroxif.js"
+import { imageToWebp } from "./lib/kilimanjaroexif.js"
 
-import { videoToWebp, writeExifImg, writeExifVid } from './lib/kilimanjaroxif.js';
+import { videoToWebp, writeExifImg, writeExifVid } from './lib/kilimanjaroexif.js';
 
 
 import { isUrl } from './lib/kilimanjarofunc.js';
@@ -696,7 +696,7 @@ m.reply = (text, chatId = m.chat, options = {}) => (Buffer.isBuffer(text) ? conn
 
 
 
-async function startDreaded() {
+async function startKilimanjaro() {
 
 
 
