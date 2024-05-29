@@ -15,7 +15,7 @@
     "bot-md",
     "whatsapp-multi-device"
   ],
-  "base": "https://github.com/DikaArdnt/Hisoka-Morou",
+  "base": "https://github.com/kingjux/Kilimanjaro-md",
   "author": "Kingjux/venocybertech",
   "license": "MIT",
   "dependencies": {
